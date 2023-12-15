@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+}
+
+/* -----------START EDITING HERE------------- */
+
+header{
+
+	font-family: Chicle;
+	padding: 5px;
+	width: 100%;
+	height: 88px;
+	margin: 0px;
+	margin-bottom: 15px;
+    box-sizing: border-box;
+	text-align: center;
+	overflow: auto;
+	margin-left: 0 ;
+	background-color: #4185cf;	
+	display: flex;
+	justify-content: center;
+
+	
+}
+
+nav{
+margin-left: 85px;
+}
+
+.fix{
+	clear: both;
+}
+
+#topNav {margin: 0px 20px;}
+
+#Videos {padding: 15px; 	
+	display: flex;
+	justify-content: center;}
+
+#AboutMe {padding: 5px; text-align: center; width: 80%; }
+ 
+#ContactForm {display: center;}
+
+body {
+	background-color:#50a4ff;
+	font-size: 16px;
+	margin: 0; 
+    padding: 0;
+  
+}
+
+
+
+h1,p {
+	color: #ffffff;
+	padding: 10px;
+}
+
+@font-face{
+		font-family: Lexend;
+		src: url(Fonts/Lexend-regular.ttf);
+}
+
+@font-face{
+		font-family: Chicle;
+		src: url(Fonts/Chicle-Regular.ttf);
+}
+
+@font-face{
+		font-family: SuperPlants;
+		src: url(Fonts/super_plants.ttf);
+}
+
+h1{
+	font-family: Lexend, Verdana, Arial, sans-serif;
+	font-size: 55px; 
+	float: left;
+}
+
+h2{ 
+	font-family: CHICLE;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px auto; 
+	font-size: 120px;
+	color: white;
+	margin-top: 15px;
+	} 
+	
+h4{ 
+	font-family: Super Plants;
+	font-size: 20px;
+	color: white;
+	} 
+	
+h3{
+	font-family: Chicle;
+	font-size: 69px;
+	text-transform: uppercase; 
+	color: white;
+	text-align:center;
+}
+
+h5{ 
+	font-size: 160%;
+	background-color: blue;
+	margin: 10px 0px;
+	border: 1px solid black;
+	width: 33%;
+	float: left;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+        body {
+            font-family: Arial, sans-serif;
+    
+        }
+
+        form {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 12px;
+			color: white;
+			text-align: center;
+			font-size: 200%;
+        }
+
+        input,
+        textarea,
+        input[type="checkbox"] {
+            width: 100%;
+            padding: 10px; 
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #50a4ff;
+            color: white;
+			font-size: 140%;
+            cursor: pointer;
+			font-family: Chicle;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #50a4ff;
+        }
+
+       
+        textarea {
+            height: 100px; 
+            resize: vertical;
+        }
+
+        
+        .checkbox-section {
+            margin-bottom: 20px;
+        }
+
+        .checkbox-section label {
+            align-items: center; 
+            margin-bottom: 10px; 
+        }
+
+        .checkbox-section input {
+            margin-right: 10px; 
+			transform: scale(2);
+        }
+		
+		.social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .social-links a {
+			font-family: 'Chicle', cursive;
+            text-decoration: none;
+            color: white;
+            display: flex;
+			text-align: center;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .social-links img {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+  
+
+.blue{	
+	display: inline-block;
+	padding: 5px;
+	margin: 0 20px;
+}
+
+
+.centered-section {
+    width: 100%;
+    margin: 0 auto; 
+
+}
+
+img.youtube{ width:70px; height:70px; display: block; }
+img.insta{ width:70px; height:70px; display: block;}
+img.tiktok{ width:65px; height:65px; display: block;}
+
+
+
+img.imgLg{ width:600px; height:auto; float: left;}
+
+
+
+.image-container {
+    float: left; 
+    margin-right: 10px; 
+}
+
+.text-container {
+    overflow: hidden; 
+	
+}
+
+
+
+.blue {color: blue ;}
+
+.center { text-align: center;
+		  margin: 0px auto;  }
+ul li a{
+	font-size: 205%;
+	padding: 2px 0px;
+	width: 100%;
+	font-family: Chicle;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: inline-block;
+	display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 15px 4px;
+    padding: 0;
+    vertical-align: middle; 
+}
+
+ul li {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 20px;
+}
+
+
+table{
+		background-color: black;
+		color: white;
+		border-spacing: 10px;
+		border: 1px solid white;
+	}
+		
+tr{ 
+	border: 1px solid white;
+}
+
+th{
+	border: 1px solid white;
+	padding: 10px;
+	font-family: Lexend;
+	font-weight: 700;
+	font-size: 120%;
+}
+
+form{
+	border: 1px solid white;
+	padding: 10px;
+	font-family: Lexend;
+	font-weight: 700;
+	font-size: 100%;
+	
+}
+
+footer{
+	font-family: SuperPlants;
+	margin-top: 30px;
+	width: 100%;
+	height: 89px;
+	background-color: #4185cf;
+	display: inline-block;
+	margin: 0px;
+	text-align: center;
+	
+	
+} 
+
